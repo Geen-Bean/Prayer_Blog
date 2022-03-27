@@ -1,0 +1,7 @@
+sage: cbd9cf
+cream: fbf7ee
+green: 075b46
+light green: 608b6a
+orange: ff8254
+dark orange: 961001
+gold: b89f78

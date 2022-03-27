@@ -1,0 +1,611 @@
+body {
+	background-image: url("blogbkgrd.png");
+}
+
+h1 {
+	font-family: 'WindSong', cursive;
+	text-align: center;
+	font-size: 3rem;
+	background: -webkit-linear-gradient(#ff8254, #961001);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+	padding-top: 5px;
+}
+
+h2 {
+	font-family: 'Nunito Sans', sans-serif;
+	text-align: center;
+	font-size: 2rem;
+	background: -webkit-linear-gradient(#ff8254, #961001);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+h3 {
+	color: #ff8254;
+	font-family: 'Cutive Mono', monospace;
+	font-size: 1.5rem;
+}
+
+h4 {
+	font-family: 'Cutive Mono', monospace;
+	font-size: 2.5rem;
+}
+
+h5 {
+	font-family: 'Cutive Mono', monospace;
+	font-size: 1.5rem;
+}
+
+p {
+	font-family: 'Nunito Sans', sans-serif;
+	font-size: 1rem;
+}
+
+td {
+	padding: 10px;
+	margin: 10px;
+	background-color: #000000;
+	text-align: center;
+}
+
+#content, #content2 {overflow: auto;}
+
+#nav, #footer {
+	padding: 0.5rem;
+	width: 84%;
+	position: relative;
+	left: 90px;
+}
+
+#invent, #repent, #amen, #rec, #graditude, #gratitude, #others, #myself, #sermon, #group, #race, #gender, #reconciliations, #christian {
+	position: relative;
+	left: 140px;
+}
+
+#sub {
+	position: relative;
+	left: 220px;
+	background-color: #ff8254;
+	border-width: 0px;
+	border-radius: 25px;
+	height: 30px;
+	width: 150px;
+	color: white;
+}
+
+.hede {
+	text-align: center;
+}
+
+.alerts {
+	border-radius: 25px;
+	background-color: #fbf7ee;
+	text-align: center;
+	color: #608b6a;
+	font-family: 'Nunito Sans', sans-serif;
+	font-size: 2rem;
+}
+
+.btnbtn {
+	position: relative;
+	left: 220px;
+	background-color: #ff8254;
+	border-width: 0px;
+	border-radius: 25px;
+	height: 30px;
+	width: 150px;
+	color: white;
+}
+
+.btnbtn:hover {
+	cursor: pointer;
+}
+
+.btnbtnbtnbtn {
+	position: relative;
+	left: 50px;
+	background-color: #961001;
+	border-width: 0px;
+	border-radius: 25px;
+	height: 30px;
+	width: 150px;
+	color: white;
+}
+
+.btnbtnbtnbtn:hover {
+	cursor: pointer;
+}
+
+.btnbtnbtn {
+	position: relative;
+	left: 100px;
+	background-color: #ff8254;
+	border-width: 0px;
+	border-radius: 25px;
+	height: 30px;
+	width: 150px;
+	color: white;
+}
+
+.btnbtnbtn:hover {
+	cursor: pointer;
+}
+
+.btncreate {
+	position: relative;
+	left: 385px;
+	background-color: #ff8254;
+	font-family: 'Nunito Sans', sans-serif;
+	font-size: 2rem;
+	border-width: 0px;
+	border-radius: 15px;
+	height: 50px;
+	width: 300px;
+	color: white;
+}
+
+.btncreate:hover {
+	cursor: pointer;
+}
+
+.beep {
+	width: 80%;
+	position: relative;
+	justify-content: center;
+	padding-left: 100px;
+}
+
+.edit {
+	display: grid;
+	grid-template-columns: [col] 50% [col] 50%;
+	grid-template-rows: auto;
+	grid-gap: 10px;
+	width: 80%;
+	position: relative;
+	left: 160px;
+}
+
+.btncreate {
+	position: relative;
+	left: 385px;
+	background-color: #ff8254;
+	font-family: 'Nunito Sans', sans-serif;
+	font-size: 2rem;
+	border-width: 0px;
+	border-radius: 15px;
+	height: 50px;
+	width: 300px;
+	color: white;
+}
+
+.btncreate:hover {
+	cursor: pointer;
+}
+
+.card-title:hover {
+	cursor: pointer;
+}
+
+.edit {
+	display: grid;
+	grid-template-columns: [col] 50% [col] 50%;
+	grid-template-rows: auto;
+	grid-gap: 10px;
+	width: 80%;
+	position: relative;
+	left: 160px;
+}
+
+.heder {
+	position: relative;
+	left: 28px;
+}
+
+
+.row {
+	display: grid;
+	grid-gap: 10px;
+	width: 80%;
+	position: relative;
+	left: 80px;
+}
+
+.col{
+	background-color: #cbd9cf;
+	position: relative;
+	justify-content: center;
+	text-align: center;
+	color: #075b46;
+	border-radius: 10px;
+	margin: 5px;
+}
+
+.col:hover {
+	filter: brightness(90%);
+	cursor: pointer;
+}
+
+#beads {
+	width: 80%;
+	position: relative;
+	left: 100px;
+}
+
+.back {
+	background-color: #cbd9cf00;
+	padding: 20px;
+	border-style: solid;
+	border-color: #075b46;
+	border-width: 1px;
+	width: 80%;
+	position: relative;
+	left: 80px;
+}
+
+.main {
+	width: 90%;
+	justify-content: center;
+	margin: 0 auto;
+}
+
+.menu {
+	float: center;
+	background-color: #075b46;
+	justify-content: center;
+	text-align: center;
+}
+
+.menu li {
+	display: inline-block;
+	float: center;
+	text-align: center;
+}
+
+.menu li  a {
+	float: center;
+	padding: 15px;
+	text-decoration: none;
+	font-family: 'Nunito Sans', sans-serif;
+	font-size: 1.5rem;
+	color: #ffffff;
+}
+
+.menu li  a:hover {
+	color: #ff8254;
+	cursor: pointer;
+}
+	
+.content {
+	background-color: #ffffff;
+	width:80%;
+	justify-content: center;
+	position: relative;
+	left: 100px;
+	padding: 20px;
+	grid-gap: 20px;
+	border-style: solid;
+	border-color: #cbd9cf;
+	border-width: 5px;
+	display: flex;
+	flex-direction: row;
+}
+	
+.picture img {
+	width: 100%;
+	height: auto;
+	position: relative;
+	top: 50px;
+}	
+
+.pray img:hover {
+	cursor: pointer;
+}
+	
+.content2 {
+	background-color: #ffffff;
+	width:80%;
+	justify-content: center;
+	position: relative;
+	left: 100px;
+	padding: 20px;
+	grid-gap: 20px;
+	border-style: solid;
+	border-color: #cbd9cf;
+	border-width: 5px;
+}	
+	
+.steps {
+	width: 80%;
+	position: relative;
+	left: 100px;
+}
+
+.beads {
+	width: 90%;
+	position: relative;
+	left: 50px;
+}
+
+.plan {
+	width: 80%;
+	position: relative;
+	left: 100px;
+}
+	
+.groups {
+	width: 80%;
+	position: relative;
+	left: 100px;
+	display: grid;
+	grid-template-columns: [col] 50% [col] 50%;
+	grid-template-rows: auto;
+	grid-gap: 10px;
+	background-color: #00000000;
+}	
+
+.sermon img {
+	width: 90%;
+	height: auto;
+	border-radius: 15px;
+	cursor: pointer;
+}
+
+.sermon:hover {
+	filter: brightness(80%);
+	cursor: pointer;
+}
+
+.sermon {
+  position: relative;
+  width: 100%;
+  max-width: 600px;
+  position: relative;
+  left: 20px;
+}
+
+.sermon .btn1 {
+	position: absolute;
+	top: 50%;
+	left: 55%;
+    background-color: #075b4600;
+	color: #ff8254;
+	text-align: center;
+	border: none;
+    cursor: pointer;
+}
+
+.sermon .btn1:hover {
+	background-color: #00000000;
+	cursor: pointer;
+}
+
+.sermon .btn2 {
+	position: absolute;
+	top: 50%;
+	left: 65%;
+    background-color: #075b4600;
+	color: #608b6a;
+	text-align: center;
+	border: none;
+    cursor: pointer;
+}
+
+.sermon .btn2:hover {
+	background-color: #00000000;
+	cursor: pointer;
+}
+
+.sermon .btn22 {
+	position: absolute;
+	top: 50%;
+	left: 58%;
+    background-color: #075b4600;
+	color: #608b6a;
+	text-align: center;
+	border: none;
+    cursor: pointer;
+}
+
+.sermon .btn22:hover {
+	background-color: #00000000;
+	cursor: pointer;
+}
+
+.sermon .btn3 {
+	position: absolute;
+	top: 50%;
+	left: 55%;
+    background-color: #075b4600;
+	color: #ffffff;
+	text-align: center;
+	border: none;
+    cursor: pointer;
+}
+
+.sermon .btn33:hover {
+	background-color: #00000000;
+	cursor: pointer;
+}
+
+.sermon .btn33 {
+	position: absolute;
+	top: 50%;
+	left: 52.5%;
+    background-color: #075b4600;
+	color: #ffffff;
+	text-align: center;
+	border: none;
+    cursor: pointer;
+}
+
+.sermon .btn3:hover {
+	background-color: #00000000;
+	cursor: pointer;
+}
+
+.sermon .move1{
+	transform: translate(-75%, -50%);
+}	
+
+.sermon .move2{
+	transform: translate(-78.5%, -50%);
+}	
+
+.sermon .move3{
+	transform: translate(-80%, -50%);
+}	
+
+.sermon .move4{
+	transform: translate(-78%, -50%);
+}	
+
+.sermon .move5{
+	transform: translate(-75%, -50%);
+}	
+
+.sermon .move6{
+	transform: translate(-68%, -52%);
+}	
+
+.prayer {
+	width: 80%;
+	position: relative;
+	left: 65px;
+	display: flex;
+	flex-direction: column;
+	grid-gap: 20px;
+	background-color: #00000000;
+}	
+
+.pray img {
+	width: auto;
+	height: 150px;;
+	border-radius: 15px;
+}
+
+.pray:hover {
+	filter: brightness(80%);
+	cursor: pointer;
+}
+
+.pray {
+  position: relative;
+  height: 50%;
+  position: relative;
+  left: 20px;
+}
+
+.pray .btn4 {
+	position: absolute;
+	top: 50%;
+	left: 55%;
+    background-color: #075b4600;
+	color: #ff8254;
+	text-align: center;
+	border: none;
+    cursor: pointer;
+}
+
+.pray .btn4:hover {
+	background-color: #00000000;
+	cursor: pointer;
+}
+
+.pray .btn5 {
+	position: absolute;
+	top: 50%;
+	left: 65%;
+    background-color: #075b4600;
+	color: #608b6a;
+	text-align: center;
+	border: none;
+    cursor: pointer;
+}
+
+.pray .btn5:hover {
+	background-color: #00000000;
+	cursor: pointer;
+}
+
+.pray .btn6 {
+	position: absolute;
+	top: 50%;
+	left: 55%;
+    background-color: #075b4600;
+	color: #ffffff;
+	text-align: center;
+	border: none;
+    cursor: pointer;
+}
+
+.pray .btn6:hover {
+	background-color: #00000000;
+	cursor: pointer;
+}
+	
+.pray .move7 {
+	transform: translate(-60%, -50%);
+}	
+
+.pray .move8 {
+	transform: translate(-90%, -50%);
+}	
+
+.pray .move9 {
+	transform: translate(-58%, -50%);
+}
+
+.move10 {
+	position: relative;
+	left: 210px;
+}
+
+	
+.hed {
+	display: grid;
+	grid-template-columns: [col] 10% [col] 79% [col] 10%;
+	grid-gap: 20px;
+	width: 80%;
+	position: relative;
+	left: 90px;
+}	
+	
+.btn10 {
+	background-color: #075b4600;
+	text-align: center;
+	color: #075b46;
+	width: 75px;
+	height: 60px;
+	border-width: 0px;
+	
+}	
+
+.btn10:Hover {
+	color: #ff8254;
+	cursor: pointer;
+}
+
+.btn11 {
+	background-color: #075b46;
+	text-align: center;
+	color: #ffffff;
+	border-width: 0px;
+	border-radius: 15px;
+	width: 375px;
+	height: auto;
+	margin-left: 30px;
+}	
+
+.btn11:Hover {
+	background-color: #ff8254;
+	cursor: pointer;
+}
+	
+.footer {
+	background-color: #075b46;
+	text-align: center;
+	color: #ffffff;
+	float: bottom;
+}
+	
