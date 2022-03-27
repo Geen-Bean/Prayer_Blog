@@ -34,7 +34,7 @@ Notepad++ - https://notepad-plus-plus.org/downloads/
 
 **Regen Material**
 
-Any material on the pages Regen, Inventory, Repentance Plans, Amends Plans, Reconciliation Plans, Workbooks and Additional Resources are not my intellectual property. This information was provided to me at cost by Watermark church. I do not consent for this information to be used for personal use. I posted this on github to show the scope of my work, not for others to actually use my personal diary as a template for their own. **Legal consequences can follow for both you and I, SO JUST DON'T.**
+Any material on the pages Regen, Inventory, Repentance Plans, Amends Plans, Reconciliation Plans, Workbooks and Additional Resources are not my intellectual property. The Regen steps are also in my Prayer Beads Guide and I don't own that either. This information was provided to me at cost by Watermark church. I do not consent for this information to be used for personal use. I posted this on github to show the scope of my work, not for others to actually use my personal diary as a template for their own. **Legal consequences can follow for both you and I, SO JUST DON'T.**
 
 **Art**
 
